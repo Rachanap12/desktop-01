@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js"></script>
+</head>
+<body>
+    
+    <section id="menu">
+        <div class="logo">
+            <img src="sbck.jfif" alt="">
+            <h2>Dynamic</h2>
+        </div>
+        <div class="items">
+            <li><a href="#">
+                <i class="fas fa-menorah"></i>
+                <span class="nav-item">Dashboard</span>
+              </a></li>
+              <li><a href="#">
+                <i class="fas fa-comment"></i>
+                <span class="nav-item">Message</span>
+              </a></li>
+              <li><a href="#">
+                <i class="fas fa-database"></i>
+                <span class="nav-item">Report</span>
+              </a></li>
+              <li><a href="#">
+                <i class="fas fa-chart-bar"></i>
+                <span class="nav-item">Attendance</span>
+              </a></li>
+              <li><a href="#">
+                <i class="fas fa-cog"></i>
+                <span class="nav-item">Setting</span>
+              </a></li>
+      
+              <li><a href="#" class="logout">
+                <i class="fas fa-sign-out-alt"></i>
+                <span class="nav-item">Log out</span>
+              </a></li>
+        </div>
+    </section>
+    <section id="interface">
+        <div class="navigation">
+            <div class="n1">
+                <div>
+                    <i id="menu-btn" class="fas fa-bars"></i>
+                </div>
+                <div class="search">                                <!--search section-->
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="search">
+                </div>
+            </div>
+            <div class="profile">                                    <!--profile-->
+                <i class="fas fa-bell"></i>
+                <img src="imags/madhu sharma.jfif" alt="">
+
+            </div>
+        </div>
+        <h3 class="i-name">Dashboard</h3>
+
+        <div class="values">
+            <div class="val-box">
+                <i class="fas fa-users"></i>
+                <div>
+                    <h3>4,123</h3>
+                    <span>New Users</span>
+                </div>
+            </div>
+
+            <div class="val-box">
+                <i class="fas fa-shopping-cart"></i>
+                <div>
+                    <h3>100,110</h3>
+                    <span>Total Orders</span>
+                </div>
+            </div>
+
+            <div class="val-box">
+                <i class="fas fa-life-ring"></i>
+                <div>
+                    <h3>100,221</h3>
+                    <span>Products Sell</span>
+                </div>
+            </div>
+
+            <div class="val-box">
+                <i class="fas fa-dollar-sign"></i>
+                <div>
+                    <h3>$112.34</h3>
+                    <span>This Month</span>
+                </div>
+            </div>
+        </div>
+
+        <dir class="board">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Name</td>
+                        <td>Title</td>
+                        <td>Status</td>
+                        <td>Role</td>
+                        <td></td>
+                    </tr>
+                    <tbody>
+                        <tr>                                                        <!--1-->
+                            <td class="people">
+                                <img src="imags/madhu sharma.jfif" alt="">
+                                <div class="people-de">
+                                    <h5>Madhu sharma</h5>
+                                    <p>madhu@iCloud.com</p>
+                                </div>
+                            </td>
+                            <td class="people-des">
+                                <h5>Software Engineer</h5>
+                                <p>Web dev</p>
+                            </td>
+                            <td class="active"><p>Active</p></td>
+
+                            <td class="role"><p>Owner</p></td>
+
+                            <td class="edit"><a href="#">Edit</a></td>
+                        </tr>
+
+                        <tr>                                    <!--2-->
+                            <td class="people">
+                                <img src="imags/Genelia.JPG" alt="">
+                                <div class="people-de">
+                                    <h5>Genelia</h5>
+                                    <p>genelia@iCloud.com</p>
+                                </div>
+                            </td>
+                            <td class="people-des">
+                                <h5>Software Engineer</h5>
+                                <p>Web dev</p>
+                            </td>
+                            <td class="active"><p>Active</p></td>
+
+                            <td class="role"><p>Co-owner</p></td>
+
+                            <td class="edit"><a href="#">Edit</a></td>
+                        </tr>
+
+                        <tr>                                             <!--3-->                      
+                            <td class="people">
+                                <img src="imags/shruti.jpg" alt="">
+                                <div class="people-de">
+                                    <h5>Shruti</h5>
+                                    <p>shruti@iCloud.com</p>
+                                </div>
+                            </td>
+                            <td class="people-des">
+                                <h5>Software Engineer</h5>
+                                <p>Web dev</p>
+                            </td>
+                            <td class="active"><p>Active</p></td>
+
+                            <td class="role"><p>Employee</p></td>
+
+                            <td class="edit"><a href="#">Edit</a></td>
+                        </tr>
+
+                        <tr>                                                      <!--4-->
+                            <td class="people">
+                                <img src="imags/Bobby-Deol.jpg" alt="">
+                                <div class="people-de">
+                                    <h5>Bobby Deol</h5>
+                                    <p>bobby.deol@iCloud.com</p>
+                                </div>
+                            </td>
+                            <td class="people-des">
+                                <h5>Software Engineer</h5>
+                                <p>Web dev</p>
+                            </td>
+                            <td class="active"><p>Active</p></td>
+
+                            <td class="role"><p>Employee</p></td>
+
+                            <td class="edit"><a href="#">Edit</a></td>
+                        </tr>
+
+                        <tr>                                                      <!--5-->
+                            <td class="people">
+                                <img src="imags/Hrithik-Roshan.jpg" alt="">
+                                <div class="people-de">
+                                    <h5>Hritik Roshan</h5>
+                                    <p>hritikroshan@iCloud.com</p>
+                                </div>
+                            </td>
+                            <td class="people-des">
+                                <h5>Software Engineer</h5>
+                                <p>Web dev</p>
+                            </td>
+                            <td class="active"><p>Active</p></td>
+
+                            <td class="role"><p>Employee</p></td>
+
+                            <td class="edit"><a href="#">Edit</a></td>
+                        </tr>
+
+                        <tr>                                                      <!--6-->
+                            <td class="people">
+                                <img src="imags/th.jfif" alt="">
+                                <div class="people-de">
+                                    <h5>Deepika Padukone</h5>
+                                    <p>deepika12@iCloud.com</p>
+                                </div>
+                            </td>
+                            <td class="people-des">
+                                <h5>Software Engineer</h5>
+                                <p>Web dev</p>
+                            </td>
+                            <td class="active"><p>Active</p></td>
+
+                            <td class="role"><p>Employee</p></td>
+
+                            <td class="edit"><a href="#">Edit</a></td>
+                        </tr>
+
+                        <tr>                                                      <!--7-->
+                            <td class="people">
+                                <img src="imags/sushant singh.jfif" alt="">
+                                <div class="people-de">
+                                    <h5>Sushant Singh Rajput</h5>
+                                    <p>ssrajput@iCloud.com</p>
+                                </div>
+                            </td>
+                            <td class="people-des">
+                                <h5>Software Engineer</h5>
+                                <p>Web dev</p>
+                            </td>
+                            <td class="active"><p>Active</p></td>
+
+                            <td class="role"><p>Employee</p></td>
+
+                            <td class="edit"><a href="#">Edit</a></td>
+                        </tr>
+
+                        <tr>                                                      <!--8-->
+                            <td class="people">
+                                <img src="imags/AkshayKumar.jpg" alt="">
+                                <div class="people-de">
+                                    <h5>Akshay Kumar</h5>
+                                    <p>akakshaykumar@iCloud.com</p>
+                                </div>
+                            </td>
+                            <td class="people-des">
+                                <h5>Software Engineer</h5>
+                                <p>Web dev</p>
+                            </td>
+                            <td class="active"><p>Active</p></td>
+
+                            <td class="role"><p>Employee</p></td>
+
+                            <td class="edit"><a href="#">Edit</a></td>
+                        </tr>
+
+                        <tr>                                                      <!--9-->
+                            <td class="people">
+                                <img src="imags/maheshwari.jfif" alt="">
+                                <div class="people-de">
+                                    <h5>Maheshwari</h5>
+                                    <p>mahi@iCloud.com</p>
+                                </div>
+                            </td>
+                            <td class="people-des">
+                                <h5>Software Engineer</h5>
+                                <p>Web dev</p>
+                            </td>
+                            <td class="active"><p>Active</p></td>
+
+                            <td class="role"><p>Employee</p></td>
+
+                            <td class="edit"><a href="#">Edit</a></td>
+                        </tr>
+
+                        <tr>                                                      <!--10-->
+                            <td class="people">
+                                <img src="imags/harshika poonacha.jfif" alt="">
+                                <div class="people-de">
+                                    <h5>Harshika</h5>
+                                    <p>Harshika@iCloud.com</p>
+                                </div>
+                            </td>
+                            <td class="people-des">
+                                <h5>Software Engineer</h5>
+                                <p>Web dev</p>
+                            </td>
+                            <td class="active"><p>Active</p></td>
+
+                            <td class="role"><p>Employee</p></td>
+
+                            <td class="edit"><a href="#">Edit</a></td>
+                        </tr>
+                    </tbody>
+                </thead>
+            </table>
+        </dir>
+    </section>
+
+
+
+    <script>
+        $('#menu-btn').click(function(){
+            $('#menu').toggleClass("active");
+        })
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
